@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import Carrusel from './componentes/Carrusel'
+import Cabecera from './componentes/Cabecera'
+import {mascotas} from './JSON/mascotas'
 import './App.css';
 
 function App() {
+
+  const contenido = mascotas.map((mascota)=>{
+    return(
+      <Carrusel
+      nombre={mascota.nombre}
+      edad={mascota.edad_aprox}
+      imagen={mascota.img}/>
+    )
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cabecera/>
+
+
+
+      {contenido}
     </div>
   );
 }
