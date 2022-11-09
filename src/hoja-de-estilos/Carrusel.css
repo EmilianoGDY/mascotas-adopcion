@@ -1,4 +1,11 @@
+
 img{
-    width: 100px;
-    height: 140px;
+    width: auto;
+    height: 250px;
+}
+
+.carta{
+    width: 380px;
+    margin: 0 10px 20px 10px;
+    
 }

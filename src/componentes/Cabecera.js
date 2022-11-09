@@ -12,6 +12,7 @@ const Cabecera = () =>{
     // };
 
     return(
+        <>
         <header>
         <div className="contenedor">
             <div className="contenido">
@@ -20,8 +21,13 @@ const Cabecera = () =>{
                 <h1>Portal "Mi Mascota"</h1>
                 <h3>Adopta Responsablemente</h3>
             </div>
-            <h1 className="titulo">Quienes Somos ?</h1>
-            <p>
+           
+           
+            
+        </div>
+        <h1 className="titulo">Quienes Somos ?</h1>
+        <p>
+                
                 Aqui en nuestro portal encontraras muchos animalitos esperando un hogar y una familia que la quiera adoptar <br/>
                 para brindarle mucho amor. A lo largo de más de veinte años de funcionamiento, nos enorgullece haber encontrado hogar a 15.300 perros y a 2.298 gatos, 
                 incluyendo tanto a adultos como cachorros. El promedio de adopciones es de 50 perros y de 15 gatos por mes.<br/><br/>
@@ -29,9 +35,8 @@ const Cabecera = () =>{
                 Utilizamos distintos pensionados que se abonan por día hasta que se adopta el animal. Tenemos en este momento más de 80 animales adultos y cachorros (entre perros y gatos) 
                 que esperan encontrar un hogar donde se los trate con respeto y responsabilidad.
             </p>
-            
-        </div>
         </header>
+        </>
     );
 }
 

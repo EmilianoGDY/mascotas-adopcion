@@ -10,17 +10,22 @@ function App() {
       <Carrusel
       nombre={mascota.nombre}
       edad={mascota.edad_aprox}
-      imagen={mascota.img}/>
+      imagen={mascota.img}
+      tipo={mascota.tipo}/>
+      
     )
   })
 
   return (
     <div className="App">
-      <Cabecera/>
+      <div>
+        <Cabecera/>
+      </div>
 
-
-
-      {contenido}
+      <div className='container'>
+        {contenido}
+      </div>
+     
     </div>
   );
 }
