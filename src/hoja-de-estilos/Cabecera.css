@@ -3,7 +3,7 @@
     background-size:cover;
     height: 500px;
     margin: auto;
-    width: 100%;
+    width: 110%;
     min-width: 1600px;
 }
 
@@ -50,5 +50,25 @@ p{
 }
 
 .informacion{
-    min-width: 1500px;
+    min-width: 1200px;
+    max-width: 1600px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1400px){
+    .informacion{
+       
+        margin-left: 1000px;
+    }
 }
