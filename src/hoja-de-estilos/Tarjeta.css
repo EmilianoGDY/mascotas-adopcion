@@ -12,5 +12,11 @@ img{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px black;
+    font-family: 'Playfair Display', serif;
     
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
 }
