@@ -80,7 +80,7 @@ function App() {
         </h1>
       </div>
 
-      <Slider {...settings}>
+      <Slider {...settings} className='slider'>
         {contenido}
       </Slider>
 
