@@ -4,6 +4,7 @@
     height: 500px;
     margin: auto;
     width: 100%;
+    min-width: 1600px;
 }
 
 .contenido{
@@ -46,4 +47,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.informacion{
+    min-width: 1500px;
 }

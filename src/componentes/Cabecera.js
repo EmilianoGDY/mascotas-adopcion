@@ -25,8 +25,9 @@ const Cabecera = () =>{
            
             
         </div>
+        <div className="informacion">
         <h1 className="titulo">Quienes Somos ?</h1>
-        <p>
+            <p>
                 
                 Aqui en nuestro portal encontraras muchos animalitos esperando un hogar y una familia que la quiera adoptar <br/>
                 para brindarle mucho amor. A lo largo de más de veinte años de funcionamiento, nos enorgullece haber encontrado hogar a 15.300 perros y a 2.298 gatos, 
@@ -35,6 +36,7 @@ const Cabecera = () =>{
                 Utilizamos distintos pensionados que se abonan por día hasta que se adopta el animal. Tenemos en este momento más de 80 animales adultos y cachorros (entre perros y gatos) 
                 que esperan encontrar un hogar donde se los trate con respeto y responsabilidad.
             </p>
+        </div>
         </header>
         </>
     );
