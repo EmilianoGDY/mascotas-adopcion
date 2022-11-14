@@ -1,11 +1,15 @@
 import React from "react";
 import '../hoja-de-estilos/Tarjeta.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Ejemplo from './Ejemplo'
+import BotonModal from './BotonModal';
+
 
 
 
 const Tarjeta = (props)=> {
+
+
+
     return(
         <>
          <div className="card carta" >
@@ -16,8 +20,13 @@ const Tarjeta = (props)=> {
                <p className="card-text">{props.tipo}</p>
                
             </div>
-            <Ejemplo
-            nombre={props.nombre}/>
+
+
+            <BotonModal
+            nombre={props.nombre}
+            tamano={props.tamano}
+            raza={props.raza}
+            vacunas={props.vacunas}/>
          </div>
         </>
    

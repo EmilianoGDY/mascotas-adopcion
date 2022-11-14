@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import '../hoja-de-estilos/Ejemplo.css'
+import '../hoja-de-estilos/BotonModal.css'
 
 
-function Example(props) {
+function BotonModal(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -26,8 +26,9 @@ function Example(props) {
           <Modal.Title>Hola me llamo {props.nombre}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
+          Tamaño: {props.tamano}
+          Raza: {props.raza}
+          Vacunas: {props.vacunas}
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
@@ -41,4 +42,4 @@ function Example(props) {
 
 
 
-export default Example;
+export default BotonModal;
