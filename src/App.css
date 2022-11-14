@@ -5,3 +5,29 @@
     max-width: 2000px;
     margin: 1px 50px 1px 50px;
 }
+
+
+body{
+    background-color: darkgray;
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.slick-list{
+    margin: 0 -10px;
+}
+
+.textos{
+    margin:100px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:darkslategray;
+    width: 1400px;
+    padding: 20px;
+    border-radius: 20px;
+
+}

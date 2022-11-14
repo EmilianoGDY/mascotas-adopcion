@@ -1,0 +1,16 @@
+
+img{
+    width: auto;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.carta{
+    width: 380px;
+    margin: 0 10px 20px 10px;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    
+}

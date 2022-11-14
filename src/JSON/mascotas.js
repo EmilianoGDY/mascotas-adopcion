@@ -556,7 +556,7 @@ var mascotas = [
       nombre: "Cualincha",
       edad_aprox: "Casi un año",
       tamaño: "medio",
-      tipo: "Negro amarronado",
+      tipo: "Gato",
       raza: "Gato",
       genero: "H",
       vacunas: "todas",
